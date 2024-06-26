@@ -15,7 +15,10 @@ public class List {
 		list.add(4);
 		list.add(6);
 		
-		System.out.println(list.get(2));
+		System.out.println(list.get(2)); // get() 메서드로 인덱스를 통해 데이터에 접근 
 		System.out.println(list);
+		System.out.println(list.remove(list.size()-1)); // 끝에 있는 데이터 삭제 
+		System.out.println(list);
+		
 	}
 }

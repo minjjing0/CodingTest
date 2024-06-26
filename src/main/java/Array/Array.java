@@ -20,6 +20,15 @@ public class Array {
 		System.out.println(Arrays.toString(array2));
 		System.out.println(Arrays.toString(array3));
 
+		
+		// 2차원 배열  생성 
+		int [][] arr = {{1,2,3},{4,5,6}};
+		//arr[1][2] 에 저장된 값을 출력 
+		System.out.println(arr[1][2]); //6 
+		//arr[1][2]에 저장된 값을 7로 변경 
+		arr[1][2] =7;
+		//변경된 값을 출력 
+		System.out.println(arr[1][2]);
 }
 
 }

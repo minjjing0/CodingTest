@@ -1,5 +1,7 @@
 package method;
 
-public class MethodEx {
 
+
+public class MethodEx {
+	
 }

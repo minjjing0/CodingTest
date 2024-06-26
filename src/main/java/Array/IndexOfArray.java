@@ -15,5 +15,7 @@ public class IndexOfArray {
 		//5번째 값을 3번째 값으로 변경
 		myArray[4] = myArray[2];       
 		System.out.println(Arrays.toString(myArray));
+		
+		
 	}
 }
